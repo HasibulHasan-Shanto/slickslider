@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.sliderOne{
+    background: url(../Images/pexels-fox-58267-225157.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    background: url(../Images/pexels-morningtrain-18105.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    background: url(../Images/pexels-pixabay-248519.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    background: url(../Images/pexels-pixabay-4158.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background: url(../Images/pexels-atccommphoto-306763.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overly{
+    background: rgba(0, 0, 0, 0.629);
+    padding: 250px;
+}
+.left{
+    font-size: 50px;
+    color: wheat;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 111;
+}
+.right{
+    font-size: 50px;
+    color: wheat;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slick-dots li button{
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.slick-dots{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+    gap: 10px;
+}
